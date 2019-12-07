@@ -5,10 +5,14 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* html, body {
   width: 100%;
   height: 100%;
 } */
+=======
+
+>>>>>>> master
 nav {
   display: flex;
   justify-content: space-around;
@@ -74,11 +78,19 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
+<<<<<<< HEAD
     background-color: rgb(154, 57, 229);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+=======
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+>>>>>>> master
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -96,17 +108,29 @@ nav {
   transform: translateX(0%);
 }
 
+<<<<<<< HEAD
 @media screen and (ma10px 0pxx-width:320px) {
+=======
+@media screen and (max-width:320px) {
+>>>>>>> master
   .nav-links {
     position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
+<<<<<<< HEAD
     background-color:rgb(154, 57, 229);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+=======
+    background-color: #9104FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+>>>>>>> master
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -146,6 +170,7 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+<<<<<<< HEAD
  html, body {
   /* Home */
   position: relative;
@@ -162,3 +187,11 @@ nav {
   grid-row: 5 / 7;
   grid-column: 5 / 8;
 }
+=======
+body, .content {
+  /* Home */
+  position: relative;
+  height: 1080px;
+  background: linear-gradient(180deg, rgba(154, 57, 229, 0.62) 0%, rgba(229, 192, 57, 0.3162) 100%);
+}
+>>>>>>> master
